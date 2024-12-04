@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+dependencies:
+  - git
+  - numpy
+  - requests
+  - pip
+  - pip:
+    - pyorbital
+  - python=3.12
+  - pyyaml
+  - scipy
