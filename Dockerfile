@@ -16,7 +16,6 @@ RUN microdnf update -y && \
     micromamba activate && \
     micromamba install -y -f /tmp/environment.yaml && \
     pip cache purge && \
-    micromamba remove -y git && \
     micromamba remove --force -y pip && \
     micromamba clean -af -y && \
     chgrp -R 0 /opt/conda && \
