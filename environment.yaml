@@ -5,7 +5,7 @@ dependencies:
   - requests
   - pip
   - pip:
-    - pyorbital
+    - pyorbital==1.9.2
   - python=3.12
   - pyyaml
   - scipy
