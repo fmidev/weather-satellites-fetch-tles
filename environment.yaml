@@ -6,6 +6,6 @@ dependencies:
   - pip
   - pip:
     - pyorbital==1.10.2
-  - python=3.12
+  - python=3.13
   - pyyaml
   - scipy
